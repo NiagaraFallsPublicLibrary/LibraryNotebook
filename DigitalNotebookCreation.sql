@@ -5,7 +5,9 @@ CREATE TABLE library (
 	library_id		INT NOT NULL IDENTITY(1,1),
 	library_name	NVARCHAR(255),
 	library_website	NVARCHAR(255)		--Used to vailidate email account on login
+	CONSTRAINT PK_library_id PRIMARY KEY NONCLUSTERED (library_id)
 	);
+GO
 CREATE TABLE desk (
 	desk_id				INT NOT NULL IDENTITY(1,1),
 	branch				VARCHAR(255),
