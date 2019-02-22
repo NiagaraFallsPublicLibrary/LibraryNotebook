@@ -4,8 +4,19 @@ USE DigitalNotebook;
 CREATE TABLE library (
 	library_id		INT NOT NULL IDENTITY(1,1),
 	library_name	NVARCHAR(255),
-	library_website	NVARCHAR(255)		--Used to vailidate email account on login
+	library_website	NVARCHAR(255),		--Used to vailidate email account on login
 	CONSTRAINT PK_library_id PRIMARY KEY NONCLUSTERED (library_id)
+	);
+GO
+CREATE TABLE login (
+	l_id 		INT NOT NULL IDENTITY(1,1),
+	staff_name	NVARCHAR(255),
+	title		NVARCHAR(255),
+	email		VARCHAR(128),
+	pass_hash	VARCHAR(255),
+	external_type	VARCHAR(16),		--mainly to add google OAUTH but with a type to be on the safe side
+	external_id		VARCHAR(64),
+	CONSTRAINT PK_l_id PRIMARY KEY NONCLUSTERED (l_id)
 	);
 GO
 CREATE TABLE desk (
