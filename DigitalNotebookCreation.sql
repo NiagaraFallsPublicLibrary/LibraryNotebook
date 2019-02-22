@@ -17,8 +17,8 @@ CREATE TABLE login (
 	external_type	VARCHAR(16),		--mainly to add google OAUTH but with a type to be on the safe side
 	external_id		VARCHAR(64),
 	library_id		INT	NOT NULL,		--must have a library to register 
-	CONSTRAINT PK_l_id PRIMARY KEY NONCLUSTERED (l_id)
-	CONSTRAINT FK_library_id FOREIGN KEY (library_id)
+	CONSTRAINT PK_l_id PRIMARY KEY NONCLUSTERED (l_id),
+	CONSTRAINT FK_login_library_id FOREIGN KEY (library_id)
 		REFERENCES [DigitalNotebook].[dbo].library (library_id) 
 	);
 GO
@@ -28,8 +28,8 @@ CREATE TABLE desk (
 	library_id			INT,
 	computer_name		VARCHAR(255),
 	nickname			VARCHAR(255),
-	CONSTRAINT PK_desk_id PRIMARY KEY NONCLUSTERED (desk_id)
-	CONSTRAINT FK_library_id FOREIGN KEY (library_id)
+	CONSTRAINT PK_desk_id PRIMARY KEY NONCLUSTERED (desk_id),
+	CONSTRAINT FK_desk_library_id FOREIGN KEY (library_id)
 		REFERENCES [DigitalNotebook].[dbo].library (library_id) 
 	);
 GO
@@ -48,9 +48,27 @@ GO
 ALTER TABLE category
 ADD CONSTRAINT FK_subcategory_of FOREIGN KEY (subcategory_of) 
 	REFERENCES category(category_id);
-
+GO
+--frequent interations will show up to the user as buttons instead of having to type them out
+CREATE TABLE frequent_interation (
+	fiid		INT NOT NULL IDENTITY(1,1),	--Frequent Interations IDentity
+	interaction	NVARCHAR(MAX),
+	category_id	INT,
+	library_id	INT,
+	l_id		INT,
+	desk_id		INT,
+	CONSTRAINT PK_frequent_intercation_id PRIMARY KEY NONCLUSTERED (fiid),
+	CONSTRAINT FK_frequent_desk_id FOREIGN KEY (desk_id)
+		REFERENCES [DigitalNotebook].[dbo].[desk] (desk_id),
+	CONSTRAINT FK_frequent_l_id FOREIGN KEY (l_id)
+		REFERENCES [DigitalNotebook].[dbo].[login] (l_id),
+	CONSTRAINT FK_frequent_library_id FOREIGN KEY (library_id)
+		REFERENCES [DigitalNotebook].[dbo].[library] (library_id),
+	CONSTRAINT FK_frequent_category_id FOREIGN KEY (category_id)
+		REFERENCES [DigitalNotebook].[dbo].category (category_id)  
+	);
 USE DigitalNotebook;
-CREATE TABLE interaction (
+CREATE TABLE patron_interaction (
 	interaction_id	INT NOT NULL IDENTITY(1,1),
 	recieved		DATETIME DEFAULT GETDATE(),
 	multiplier		INT DEFAULT 1,
@@ -59,14 +77,14 @@ CREATE TABLE interaction (
 	desk_id			INT,
 	category_id		INT,
 	library_id		INT,
-	CONSTRAINT PK_intercation_id PRIMARY KEY NONCLUSTERED (interaction_id),
-	CONSTRAINT FK_desk_id FOREIGN KEY (desk_id)
+	CONSTRAINT PK_interaction_id PRIMARY KEY NONCLUSTERED (interaction_id),
+	CONSTRAINT FK_interaction_desk_id FOREIGN KEY (desk_id)
 		REFERENCES [DigitalNotebook].[dbo].[desk] (desk_id),
-	CONSTRAINT FK_l_id FOREIGN KEY (l_id)
+	CONSTRAINT FK_interaction_l_id FOREIGN KEY (l_id)
 		REFERENCES [DigitalNotebook].[dbo].[login] (l_id),
-	CONSTRAINT FK_library_id FOREIGN KEY (library_id)
+	CONSTRAINT FK_interaction_library_id FOREIGN KEY (library_id)
 		REFERENCES [DigitalNotebook].[dbo].[library] (library_id),
-	CONSTRAINT FK_category_id FOREIGN KEY (category_id)
+	CONSTRAINT FK_interaction_category_id FOREIGN KEY (category_id)
 		REFERENCES [DigitalNotebook].[dbo].category (category_id)  
 	);
 
