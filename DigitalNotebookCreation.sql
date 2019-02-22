@@ -51,16 +51,21 @@ ADD CONSTRAINT FK_subcategory_of FOREIGN KEY (subcategory_of)
 
 USE DigitalNotebook;
 CREATE TABLE interaction (
-	interaction_id	INT NOT NULL,
+	interaction_id	INT NOT NULL IDENTITY(1,1),
 	recieved		DATETIME DEFAULT GETDATE(),
 	multiplier		INT DEFAULT 1,
 	interaction		NVARCHAR(MAX),
-	staff_name		NVARCHAR(255),
-	desk_id			INT NOT NULL,
-	category_id		INT NOT NULL,
+	l_id			INT,
+	desk_id			INT,
+	category_id		INT,
+	library_id		INT,
 	CONSTRAINT PK_intercation_id PRIMARY KEY NONCLUSTERED (interaction_id),
 	CONSTRAINT FK_desk_id FOREIGN KEY (desk_id)
 		REFERENCES [DigitalNotebook].[dbo].[desk] (desk_id),
+	CONSTRAINT FK_l_id FOREIGN KEY (l_id)
+		REFERENCES [DigitalNotebook].[dbo].[login] (l_id),
+	CONSTRAINT FK_library_id FOREIGN KEY (library_id)
+		REFERENCES [DigitalNotebook].[dbo].[library] (library_id),
 	CONSTRAINT FK_category_id FOREIGN KEY (category_id)
 		REFERENCES [DigitalNotebook].[dbo].category (category_id)  
 	);
