@@ -9,14 +9,17 @@ CREATE TABLE library (
 	);
 GO
 CREATE TABLE login (
-	l_id 		INT NOT NULL IDENTITY(1,1),
-	staff_name	NVARCHAR(255),
-	title		NVARCHAR(255),
-	email		VARCHAR(128),
-	pass_hash	VARCHAR(255),
+	l_id 			INT NOT NULL IDENTITY(1,1),
+	staff_name		NVARCHAR(255),
+	title			NVARCHAR(255),
+	email			VARCHAR(128),
+	pass_hash		VARCHAR(255),
 	external_type	VARCHAR(16),		--mainly to add google OAUTH but with a type to be on the safe side
 	external_id		VARCHAR(64),
+	library_id		INT	NOT NULL,		--must have a library to register 
 	CONSTRAINT PK_l_id PRIMARY KEY NONCLUSTERED (l_id)
+	CONSTRAINT FK_library_id FOREIGN KEY (library_id)
+		REFERENCES [DigitalNotebook].[dbo].library (library_id) 
 	);
 GO
 CREATE TABLE desk (
