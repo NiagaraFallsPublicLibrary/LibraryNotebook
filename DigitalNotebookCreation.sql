@@ -1,13 +1,20 @@
 CREATE DATABASE DigitalNotebook;
 GO
 USE DigitalNotebook;
+CREATE TABLE library (
+	library_id		INT NOT NULL IDENTITY(1,1),
+	library_name	NVARCHAR(255),
+	library_website	NVARCHAR(255)		--Used to vailidate email account on login
+	);
 CREATE TABLE desk (
 	desk_id				INT NOT NULL IDENTITY(1,1),
 	branch				VARCHAR(255),
-	library_name		VARCHAR(255),
+	library_id			INT,
 	computer_name		VARCHAR(255),
 	nickname			VARCHAR(255),
 	CONSTRAINT PK_desk_id PRIMARY KEY NONCLUSTERED (desk_id)
+	CONSTRAINT FK_library_id FOREIGN KEY (library_id)
+		REFERENCES [DigitalNotebook].[dbo].library (library_id) 
 	);
 GO
 USE DigitalNotebook;
