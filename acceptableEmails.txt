@@ -1,0 +1,250 @@
+1	Addington Highlands Public Libraries	addingtonhighlandspubliclibrary.ca
+2	Township of Adjala-Tosorontio Public Libraries	adjtos.ca
+3	Admaston/ Bromley Public Library	admastonbromleylibrary.com
+4	Ajax Public Library	ajaxlibrary.ca
+5	Alderville First Nation Library	aldervillelearningcentre.com
+6	Algonquins of Pikwakanagan First Nation	algonquinsofpikwakanagan.com
+7	Alnwick/ Haldimand Public Library	alnwickhaldimand.ca
+8	Alfred Plantagenet Public Library	alfred-plantagenet.ca
+9	Arnprior Public Library	arnpriorlibrary.ca
+10	Asphodel- Norwood Township Public Library	anpl.org
+11	Athens Township Public Library	athenslibrary.ca
+12	Atikokan Public Library	aplibrary.org
+13	Augusta Public Library	augustalibrary.com
+14	Aundeck-Omni-Kaning First Nation Public Library	aundeckomnikaningfn.com
+15	Aurora Public Library	aurora.on.ca
+16	Bancroft Public Library	bancroftpubliclibrary.ca
+17	Barrie Public Library	barrielibrary.ca
+18	Barry's Bay and Area Public Library	barrys-bay.ca
+19	Beausoleil First Nation Public Library	olsn.ca
+20	Belleville Public Library	bellevillelibrary.ca
+21	Big Grassy First Nation Public Library	biggrassy.ca
+22	Bkejwanong First Nation Public Library	bkejwanonglibrary.ca
+23	Black River / Matheson Public Library	blackriver-matheson.com
+24	Blue Mountain Public Library	thebluemountainslibrary.ca
+25	Bonnechere Union Public Library	bonnechereupl.com
+26	Bracebridge Public Library	bracebridgelibrary.ca
+27	Bradford West Gwillimbury Public Library	bradford.library.on.ca
+28	Brampton Public Library	bramptonlibrary.ca
+29	Brant Public Library	brantford.library.on.ca
+30	Brantford Public Library	brighton.library.on.ca
+31	Brock Township Public Libraries	brocklibraries.ca
+32	Bromley - St. Michael Public Library	admastonbromleylibrary.com
+33	Bruce County Public Library	brucecounty.on.ca
+34	Bruce Mines and Plummer Public Library	bruceminesandplummerlibrary.ca
+35	"Burk's Falls, Armour & Ryerson Union Public Library"	burksfallslibrary.com
+36	Burlington Public Library	bpl.on.ca
+37	Caledon Public Library	caledon.library.on.ca
+38	Callander Public Library	mycallander.ca
+39	Cambridge Public Library	ideaexchange.org
+40	Carleton Place Public Library	carletonplace.ca
+41	Carlow - Mayo Public Library	carlowmayo.ca
+42	Casselman Public Library	bibliocasselman.ca
+43	Cavan Monaghan Public Library	cavanmonaghanlibraries.ca
+44	Central Manitoulin Public Library	centralmanitoulin.ca
+45	Centre Hastings Public Library	madocpubliclibrary.ca
+46	Champlain Public Library	bc-cl.ca
+47	Chapleau Public Library	chapleau.ca
+48	Chippewa of the Thames First Nation Public Library	cottfn.com
+49	Chippewas of Georgina Island First Nation Public Library	georginaisland.com
+50	Chatham-Kent Public Library	chatham-kent.ca
+51	Clarence - Rockland Public Library	bpcrpl.ca
+52	Clarington Public Library	clarington-library.on.ca
+53	Clearview Public Library	clearview.library.on.ca
+54	Cobourg Public Library	cobourg.ca
+55	Cobalt Public Library	cobaltlibrary.com
+56	Collingwood Public Library	collingwoodpubliclibrary.ca
+57	Constance Lake First Nation Public Library	clfn.on.ca
+58	Cornwall Public Library	cornwall.on.ca
+59	Cramahe Township Public Library	cramahelibrary.ca
+60	Curve Lake First Nation Public Library	curvelakefirstnation.ca
+61	Deep River: W.B. Lewis Public Library	deepriverlibrary.ca
+62	Delaware Nation First Nation Public Library	delawarenation.on.ca
+63	Deseronto Public Library	deserontopubliclibrary.ca
+64	Dorion Public Library	dorionpubliclibrary.ca
+65	Douro - Dummer Township Public Library	dourodummer.on.ca
+66	Dryden Public Library	dryden.ca
+67	Dubreuilville Public Library	dubreuilville.ca
+68	East Ferris Public Library	efpl.ca
+69	East Gwillimbury Public Library	egpl.ca
+70	East Hawkesbury Township Public Library	easthawkesbury.ca
+71	Grand Valley Public Library	grandvalley.org
+72	Elgin County Public Library	edcarlibrary.ca
+73	Essa Township Public Library	essa.library.on.ca
+74	Englehart Public Library	englehartpubliclibrary.ca
+75	Emo Township Public Library	emo.ca
+76	Elliot Lake Public Library	elliotlakelibrary.com
+77	Elizabethtown - Kitley Township Public Library	elizabethtown-kitley.on.ca
+78	Elgin County Public Library	elgincounty.ca
+79	Essex County Library	essexcountylibrary.ca
+80	Espanola Public Library	espanola.ca
+81	Fauquier - Strickland Public Library	fauquierstrickland.com
+82	Fort Erie Public Library	fepl.ca
+83	Fort Frances Public Library	fortfrances.ca
+84	Front of Yonge Township Public Library	frontofyonge.com
+85	Galway-Cavendish & Harvey Township Public Library	trentlakeslibrary.ca
+86	Gananoque Public Library	gananoque.ca
+87	Garden River First Nation Public Library	gardenriver.ca
+88	Georgian Bay Public Library	gbpl.ca
+89	Georgina Public Libraries	georginalibrary.ca
+90	Gore Bay Union Public Library	cioc.ca
+91	Grand Valley Public Library	townofgrandvalley.ca
+92	Gravenhurst Public Library	gravenhurst.ca
+93	Greater Sudbury Public Library	sudburylibraries.ca
+94	Grey Highlands Public Library	greyhighlandspubliclibrary.com
+95	Grimsby Public Library	grimsby.ca
+96	Guelph Public Library	guelphpl.ca
+97	Haldimand County Public Library	haldimandcounty.ca
+98	Halton Hills Public Library	hhpl.on.ca
+99	Hamilton Public Library	hpl.ca
+100	Hanover Public Library	hanoverlibrary.ca
+101	Hastings Highlands Public Library	hastingshighlandslibrary.ca
+102	Havelock-Belmont-Methuen Public Library	hbmlibrary.on.ca
+103	Hawkesbury Public Library	hawkesbury.on.ca
+104	"Head, Clara and Maria Public Library"	hcmpubliclibrary.ca
+105	Hearst Public Library	bibliohearst.on.ca
+106	Hilton Union Public Library	hiltonunion.library.on.ca
+107	Huntsville Public Library	huntsvillelibrary.ca
+108	Huron County Library	huroncounty.ca
+109	Innisfil Public Library	innisfil.library.on.ca
+110	City of Kawartha Lakes Public Library	kawarthalakes.ca
+111	Kanhiote Tyendinaga Territory First Nation Public Library	kanhiote.ca
+112	Kenora Public Library	kenorapubliclibrary.org
+113	"Killaloe, Hagarty and Richards Public Library"	killaloe-hagarty-richards.ca
+114	King Township Public Library	kinglibrary.ca
+115	Kingston Frontenac Public Library	kfpl.ca
+116	Kitchener Public Library	kpl.org
+117	La Nation Public Library	nationmun.ca
+118	Lake of Bays Public Library	lakeofbayslibrary.ca
+119	Lambton County Library	lclibrary.ca
+120	Lanark Highlands Public Library	lanarklibrary.ca
+121	Larder Lake Public Library	larderlakepubliclibrary.ca
+122	Latchford Public Library	temisklibrary.com
+123	Laurentian Hills Public Library	laurentianhills.ca
+124	Leeds and the Thousand Islands Public Library	ltipl.net
+125	Lennox and Addington County Public Library	lennox-addington.on.ca
+126	Lincoln Public Library	lincoln.library.on.ca
+127	London Public Library	londonpubliclibrary.ca
+128	Lake View School	lakeviewschool.ca
+129	Magnetawan First Nation Public Library	magnetawanfirstnation.com
+130	Magnetawan Public Library	magnetawanlibrary.ca
+131	Marathon Public Library	marathon.ca
+132	Marmora and Lake Public Library	marmoralibrary.ca
+133	Markham Public Library	markham.ca
+134	McKellar Public Library	mckellarpubliclibrary.ca
+135	Arnprior Public Library	arnprior.library.on.ca
+136	Renfrew Public Library	renfrew.library.on.ca
+137	Meaford Public Library	meaford.ca
+138	Merrickville Public Library	merrickvillelibrary.ca
+139	Michipicoten First Nation Public Library	michipicoten.com
+140	Michipicoten Township Public Library	mtpl.on.ca
+141	Middlesex County Library	middlesex.ca
+142	Midland Public Library	midlandlibrary.com
+143	Milton Public Library	mpl.on.ca
+144	Mississauga First Nation Public Library	mississaugi.com
+145	Mississaugas of Scugog Island First Nation Public Library	scugogfirstnation.com
+146	Mississauga Public Library	mississauga.ca
+147	Mississippi Mills Public Library	mississippimills.ca
+148	Mono Township Public Library	townofmono.com
+149	Moonbeam Public Library	moonbeam.ca
+150	New Tecumseth Public Library	ntpl.ca
+151	Newmarket Public Library	newmarketpl.ca
+152	Niagara Falls Public Library	nflibrary.ca
+153	Niagara-on-the-Lake Public Library	notlpubliclibrary.org
+154	Ninda - Kikaendjigae - Wigammik First Nation Public Library	nawash.ca
+155	Nipigon Public Library	nipigon.net
+156	Norfolk County Public Library	ncpl.ca
+157	North Bay Public Library	cityofnorthbay.ca
+158	North Grenville Public Library	ngpl.ca
+159	North Kawartha Public Library	northkawarthalibrary.com
+160	North Perth Public Library	northperth.ca
+161	Oakville Public Library	opl.on.ca
+162	Oliver Paipoonge Public Library	oliverpaipoonge.ca
+163	Oneida First Nation Public Library	oneida.on.ca
+164	Orangeville Public Library	orangeville.ca
+165	Orillia Public Library	orilliapubliclibrary.ca
+166	Oshawa Public Library	oshawalibrary.on.ca
+167	Otonabee - South Monaghan Public Library	otosoumon.library.on.ca
+168	Ottawa Public Library	biblioottawalibrary.ca
+169	Oxford County Public Library	ocl.net
+170	Parry Sound Public Library	parrysoundlibrary.com
+171	Pelham Public Library	pelhamlibrary.on.ca
+172	Pembroke Public Library	pembrokelibrary.ca
+173	Penetanguishene Public Library	penetanguishene.library.on.ca
+174	Perth and District Union Public Library	perthunionlibrary.ca
+175	Perth East Public Library	pertheast.library.on.ca
+176	Petawawa Public Library	petawawapubliclibrary.ca
+177	Peterborough Public Library	ptbolibrary.ca
+178	Pickering Public Library	picnet.org
+179	Port Colborne Public Library	portcolbornelibrary.org
+180	Port Hope Public Library	phpl.ca
+181	Powassan & District Union Public Library	powassanlibrary.com
+182	Prescott Public Library	prescott.ca
+183	Prince Edward County Public Library	peclibrary.org
+184	North Ontario Library Service	olsn.ca
+185	Quinte West Public Library	quintewest.ca
+186	Rainy River Public Library	rainyriverlibrary.com
+187	Ramara Township Public Library	ramarapubliclibrary.org
+188	Region of Waterloo Public Library	rwlibrary.ca
+189	Renfrew Public Library	renfrew.ca
+190	Richmond Hill Public Library	rhpl.richmondhill.on.ca
+191	Rideau Lakes Union Public Library	rideaulakeslibrary.ca
+192	Russell Township Public Library	russellbiblio.com
+193	Massy and Township Public Library 	masseylibrary.com
+194	Sault Ste. Marie	ssmpl.ca
+195	Schreiber Public Library	schreiberlibrary.ca
+196	Scugog Memorial Public Library	scugoglibrary.ca
+197	Severn Township Public Library	coldwater.library.on.ca
+198	Shelburne Public Library	shelburnelibrary.ca
+199	Sioux Lookout Public Library	slpl.on.ca
+200	Six Nations First Nation Public Library	snpl.ca
+201	County of Simcoe Library Co-op	simcoe.ca
+202	Smith-Ennismore-Lakefield Public Library	selwyntownship.ca
+203	Smiths Falls Public Library	smithsfallslibrary.ca
+204	Smooth Rock Falls Public Library	townofsmoothrockfalls.ca
+205	Southgate - Southgate - Ruth Hargrave Memorial Public Library	southgate-library.com
+206	Spanish Public Library	townofspanish.com
+207	Springwater Township Public Library	springwater.library.on.ca
+208	St. Catharines Public Library	stcatharines.library.on.ca
+209	St. Joseph Township Public Library	stjosephtownship.com
+210	St. Marys Public Library	townofstmarys.com
+211	St. Thomas Public Library	stthomaspubliclibrary.ca
+212	Stirling - Rawdon Public Library	stirlinglibrary.com
+213	"Stormont, Dundas & Glengarry County Library"	sdglibrary.ca
+214	Stratford Public Library	stratford.library.on.ca
+215	Greater Sudbury Public Library	sudburylibraries.ca
+216	Tay Public Library	tay.library.on.ca
+217	Temagami Public Library	temagami.library.on.ca
+218	Temiskaming Shores Public Library	temisklibrary.com
+219	Terrace Bay Public Library	terracebay.library.on.ca
+220	Thessalon Union Public Library	thesslibcap.com
+221	Thorold Public Library	thoroldpubliclibrary.ca
+222	Thunder Bay Public Library	tbpl.ca
+223	Timmins Public Library	timmins.ca
+224	Toronto Public Library	torontopubliclibrary.ca
+225	Trent Hills Public Library	trenthillslibrary.ca
+226	Tudor and Cashel Township Public Library	tudorandcashel.com
+227	Tweed Public Library	tweedlibrary.ca
+228	Tyendinaga Township Public Library	tyendinagatownship.com
+229	Uxbridge Public Library	uxlib.com
+230	Vaughan Public Libraries	vaughanpl.info
+231	Wahta Mohawks First Nation Public Library	wahtamohawks.ca
+232	Wainfleet Township Public Library	wainfleetlibrary.ca
+233	Wasaga Beach Public Library	wasagabeach.library.on.ca
+234	Waterloo Public Library	wpl.ca
+235	Waterloo Regional Library	rwlibrary.ca
+236	Welland Public Library	wellandlibrary.ca
+237	Wellington County Public Library	wellington.ca
+238	West Grey Public Library	westgreylibrary.com
+239	West Lincoln Public Library	westlincolnlibrary.ca
+240	West Nipissing Public Library	wnpl.ca
+241	West Perth Public Library	westperth.library.on.ca
+242	Westport Public Library	villageofwestport.ca
+243	Whitby Public Library	whitbylibrary.ca
+244	Whitchurch-Stouffville Public Library	wsplibrary.ca
+245	Whitefish River First Nation Public Library	whitefishriver.ca
+246	White River Public Library	whiteriverlibrary.com
+247	Whitewater Region Public Library	whitewaterregion.ca
+248	Windsor Public Library	windsorpubliclibrary.com
+249	Wollaston and Limerick Union Public Library	wollastonpubliclibrary.ca
+250	Woodstock Public Library	mywpl.ca
