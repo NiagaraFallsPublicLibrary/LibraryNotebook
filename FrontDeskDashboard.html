@@ -1,9 +1,50 @@
  <!DOCTYPE html>
 <html>
 <head>
-<title>Front Desk Dashboard</title>
+	<title>Front Desk Dashboard</title>
 </head>
 <body>
-
+	<div name="main">
+		<table>
+			<tr>
+				<th>Action</th>
+				<th></th>
+				<th># of times</th>
+				<th></th>
+			</tr>
+			<tr>
+				<form>
+				<td><input list="actions" id="actionInput" name="actionInput" </td>
+				<td>x</td>
+				<td><input name="multiplier" type="number" min="1"></td>
+				<td><input type="submit" Value="Submit"></td>
+				</form>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<datalist id="actions">
+				<option value="Standard Reference Transaction">
+				<option value="Accessible material, equipment or device request">
+				<option value="Phone reference request">
+				<option value="reader's Advisory transaction">
+			</datalist>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Standard Reference Transaction</td>
+				<td>x</td>
+				<td>1</td>
+				<td>today 4:30PM</td>
+			</tr>
+		</table>
+	</div>
 </body>
 </html> 
