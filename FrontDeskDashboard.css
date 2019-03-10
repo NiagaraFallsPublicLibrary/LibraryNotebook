@@ -1,0 +1,39 @@
+/*.row1, .row2, .row3, .row4 {
+	width:25%;
+}
+.row1 {
+	
+}
+.row2 {
+	left:25%;
+}
+.row3 {
+	left:50%;
+}
+.row4 {
+	left:75%;
+}*/
+.grid {
+	display: grid;
+	grid-template-columns: 2fr 1em 1fr 1fr;
+}
+#login, #freqActions, #main{
+	float: left;
+	border: 1px dotted black;
+}
+#main {
+	width: 66%;
+	min-width: 500px;
+}
+#login {
+	float:right;
+}
+#freqActions {
+	width:33%;
+}
+#freqActions input {
+	width: 75%;
+	display: block;
+	text-align:left;
+	white-space:normal;
+}
