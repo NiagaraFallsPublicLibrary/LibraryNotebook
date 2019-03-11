@@ -15,25 +15,61 @@
 }*/
 .grid {
 	display: grid;
-	grid-template-columns: 2fr 1em 1fr 1fr;
+	grid-template-columns: 2fr 1em 11em 1fr;
+}
+.x {
+	text-align:center;
+}
+.lightBlue {
+	background-color: rgb(232, 234, 246);
+}
+.lighterBlue {
+	background-color: rgb(197, 202, 233);
+}
+input[type=submit]{
+	height: 2em;
+	display: table-footer-group;
 }
 #login, #freqActions, #main{
 	float: left;
 	border: 1px dotted black;
+	
 }
 #main {
 	width: 66%;
 	min-width: 500px;
+	float: center;
+	text-align: left;
+	margin-left: 10px;
+}
+#main input {
+	width:100%;
+	
+}
+#main p {
+	margin: 5px 1px 5px 1px;
 }
 #login {
 	float:right;
 }
 #freqActions {
 	width:33%;
+	min-width: 250px;
 }
 #freqActions input {
 	width: 75%;
 	display: block;
 	text-align:left;
 	white-space:normal;
+	min-width:250px;
+}
+#actionInput {
+	width:100%;
+}
+#x {padding-top:4.25em;}
+#pagination input, #pagination p {
+	
+	width: 40px;
+	display: inline;
+	float: right;
 }
