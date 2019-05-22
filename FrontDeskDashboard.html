@@ -10,15 +10,11 @@
 	<link rel="stylesheet" type="text/css" href="FrontDeskDashboard.css"/>
 </head>
 <body>
-	<div id="login">
-		<p>Welcome Alison Pierson at Niagara Falls Public Library North desk #1.</p>
-		<a href="Change_Location.php">Change Location</a>
-		<a href="logout.php">Logout</a>
-	</div>
+	
 	<div id="main">
 		<form class="grid" id="mainSubmit">
 			<div>
-				<h2>Action</h2>
+				<h3>Action</h3>
 				<input list="actions" id="actionInput" name="actionInput" >	
 				<datalist id="actions">
 					<option value="Standard Reference Transaction">
@@ -29,12 +25,12 @@
 			</div>
 			<p id="x" class="x">x</p>
 			<div>
-				<h2>Multiplier</h2>	
+				<h3>#</h3>	
 				<input name="multiplier" id="multiplier" type="number" min="1" value="1">
 			</div>
 			<div>
-				<h2>Submission</h2>
-				<input type="submit" value="Submit">
+				<h3>Time</h3>
+				<input type="submit" value="Submit Now">
 			</div>			
 			
 			<div class="lightBlue"><p>Standard Reference Transaction</p></div>
@@ -105,12 +101,18 @@
 	
 	<div id="freqActions">		
 		<form>
-			<h2>Frequent Actions</h2>
+			<h3>Frequent Actions</h3>
 			<input type="button" value="Standard Reference Transaction">
 			<input type="button" value="Accessible material, equipment or device request">
 			<input type="button" value="Phone reference request">
 			<input type="button" value="Reader's Advisory transaction">
 		</form>
+		
+	</div>
+	<div id="login">
+		<p>Welcome Alison Pierson at Niagara Falls Public Library North desk #1.</p>
+		<a href="Change_Location.php">Change Location</a>
+		<a href="logout.php">Logout</a>
 	</div>
 </body>
 </html> 

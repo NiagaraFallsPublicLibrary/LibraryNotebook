@@ -15,7 +15,7 @@
 }*/
 .grid {
 	display: grid;
-	grid-template-columns: 2fr 1em 11em 1fr;
+	grid-template-columns: 2fr 1em 2.5em 1fr;
 }
 .x {
 	text-align:center;
@@ -27,46 +27,60 @@
 	background-color: rgb(197, 202, 233);
 }
 input[type=submit]{
-	height: 2em;
+	height: 1.8em;
 	display: table-footer-group;
 }
 #login, #freqActions, #main{
 	float: left;
-	border: 1px dotted black;
-	
+	padding-left: 10px;
 }
 #main {
 	width: 66%;
-	min-width: 500px;
-	float: center;
+	min-width: 265px;
 	text-align: left;
-	margin-left: 10px;
+	
+	display:inline-table;
 }
 #main input {
 	width:100%;
-	
 }
 #main p {
 	margin: 5px 1px 5px 1px;
 }
 #login {
-	float:right;
+	width:33%;
+	min-width: 200px;
+	padding: 55px 10px 10px 12px;
+}
+#login p, #login a {
+	
 }
 #freqActions {
 	width:33%;
 	min-width: 250px;
 }
 #freqActions input {
-	width: 75%;
+	width: 99%;
 	display: block;
 	text-align:left;
 	white-space:normal;
-	min-width:250px;
+	min-width:132px;
 }
+#freqActions h3 { width: 200px;}
 #actionInput {
 	width:100%;
 }
-#x {padding-top:4.25em;}
+#x {padding-top:3.75em;}
+#advFiltering {
+	display: block;
+	width: 10em;
+	float: left;
+}
+#pagination {
+	display: block;
+	width: 20em;
+	float: right;
+}
 #pagination input, #pagination p {
 	
 	width: 40px;
